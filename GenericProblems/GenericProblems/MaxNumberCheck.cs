@@ -16,7 +16,7 @@ namespace GenericProblems
                 return val2;
             if (val3.CompareTo(val1) > 0 && val3.CompareTo(val2) > 0)
                 return val3;
-            return val1;
+            return val2;
 
         }
     }
