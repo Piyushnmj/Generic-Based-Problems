@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Welcome to Generic Based Problems");
 
-            string output = MaxNumberCheck.MaxIntegerNumber("Peach", "Apple", "Banana");
+            string output = MaxNumberCheck.MaxIntegerNumber("Apple", "Peach", "Banana");
             Console.WriteLine("\nMax string word is: " + output);
         }
     }
