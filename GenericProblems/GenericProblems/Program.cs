@@ -14,6 +14,10 @@
 
             MaxNumberCheck<string> objstring = new MaxNumberCheck<string>("Apple", "Peach", "Banana", "Orange");
             Console.WriteLine("\nMax string word is: " + objstring.MaxMethod());
+
+            int[] arr = { 11, 111, 1111, 11111, 111111 };
+            MaxNumberCheck<int> objvalue = new MaxNumberCheck<int>(arr);
+            objvalue.PrintMaxValue();
         }
     }
 }
